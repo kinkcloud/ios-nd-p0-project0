@@ -24,16 +24,9 @@ class QuizViewController: UIViewController, AVSpeechSynthesizerDelegate {
     let speechSynth = AVSpeechSynthesizer()
     
   
-  
-  
-  
-
-  
-  
-  
-  
   @IBAction func flagButtonPressed(sender: UIButton) {
     
+
     if sender.tag == correctButtonTag{
         displayAlert("Correct",  messageText: "Good choice!")
     }else{
